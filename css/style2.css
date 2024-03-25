@@ -1,0 +1,133 @@
+*{margin:0; padding:0;}
+html,body{
+	font-family:calibri; min-height:100%; width:100%; font-size:18px; margin-bottom:35px;
+	margin-top:38px;
+}
+.wrapper-website{position:relative;}
+
+
+
+.header{
+	width:100%;  height:65px; background-color:#0c60c8; padding-top:8px; overflow:hidden;
+	padding-bottom:8px; position:fixed; top:0; left:0; z-index: 1000;
+}
+.header a{color:#0c60c8; text-decoration:none; font-size:20px;}
+.tab-header{
+	list-style:none; float:left; margin-right:40px; margin-top:2px; border-radius:20px;
+	background-color:white; padding:8px 16px 8px 16px; margin-bottom:9px; 
+}
+.tab-header-keluar{
+	list-style:none; float:right; margin-right:100px; margin-top:2px; border-radius:20px;
+	background-color:red; padding:8px 16px 8px 16px; font-weight:bold;
+}
+.logo-header{height:45px; float:left; margin:0px 100px 9px 100px;}
+.mini-logo{width:20px; margin-right:10px;}
+
+
+
+.content-website{
+	background-color:white; width:1000px; margin:0 auto; padding:15px;
+	border-radius:25px; border:3px solid lightgrey; padding-bottom:30px; 
+	box-shadow: 3px 3px 10px grey; margin-bottom:50px;
+}
+.judul{margin-left:40px; font-size:60px; margin-bottom:10px;}
+.logo-dashboard{height:80px; float:right; margin-right:30px;}
+.content-website hr{border:2px solid lightgrey; margin-bottom:20px;}
+.sub-tab{
+	text-align:center; font-size:20px; border:2px solid lightgrey; padding:20px;
+	font-size:20px; border-radius:20px; margin:20px; font-size:20px;}
+.judul2{font-size:35px; font-weight:bold; margin: 10px 0px 10px 20px;}
+.paragraf{text-align:justify;}
+.content-website p{margin-top:20px;}
+.tab_menu{margin-left:125px;}
+.tab-website{
+	list-style:none; margin-right:75px; border-radius:25px; width:100px; height:125px;
+	margin-bottom:30px; background-color:#0c60c8; padding:10px 15px 15px 15px;
+	float:left; text-align:center;
+}
+.tab-website a{color:white; text-decoration:none;}
+.tab-website img{width:70px; height:70px; margin:5px;}
+.catatan-website{color:red; font-size:16px; margin-left:40px;}
+.dukungan{height:100px; margin:20px 30px 0px 0px;}
+.profil{width:150px; border-radius:75px; float:left; margin:20px 20px 10px 0px;}
+
+
+
+.list{margin-left:50px; margin-top:20px;}
+.sub-tab a{
+	padding:5px 15px 5px 15px; text-decoration:none; margin-left:50px;
+	margin-right:50px; border-radius:25px;
+}
+.judul-pelayanan{text-align:center; font-size:30px;}
+.onclick{background-color:white; color:#0c60c8; border:1px solid #0c60c8;}
+.outclick{background-color:#0c60c8; color:white;}
+
+
+
+.tabel{
+	margin:0 auto; border-collapse:collapse; color:#0c60c8; text-align:center;
+	margin-bottom:15px; margin-top:30px;
+}
+.label-tabel{
+	background-color:#0c60c8; color:white; font-size:20px; padding:10px 20px 10px 20px;
+}
+.tabel tbody tr:nth-child(odd) td{
+	padding:10px; background-color:white; border-bottom:1px solid #0c60c8;
+}
+.tabel tbody tr:nth-child(even) td{
+	padding:10px; background-color:lightgrey; border-bottom:1px solid #0c60c8;
+}
+
+
+
+.sub-tab select{
+	width:300px; padding:8px; font-size:20px; color:#0c60c8; border:2px solid #0c60c8;
+	border-radius:20px; margin:0px 10px; float:left; margin-left:100px;
+}
+.sub-tab input{
+	width:200px; padding:8px; font-size:20px; color:#0c60c8; border:2px solid #0c60c8;
+	border-radius:20px; margin:0px 10px;
+}
+.sub-tab button{
+	font-size:20px; padding:10px; border-radius:20px; background-color:#0c60c8;
+	color:white; border:none;
+}
+
+
+
+.input-catatan table{margin:0 auto; margin-bottom:30px;}
+.input-catatan input{
+	color:#0c60c8; border:2px solid #0c60c8; font-size:16px; border-radius:20px;
+	margin-left:60px; padding:10px; width:350px; 
+}
+.input-catatan hr{border:1px solid lightgrey; margin:10px;}
+.label-input{
+	color:white; font-size:20px; background-color:#0c60c8; border-radius:30px;
+	padding:10px 15px 10px 15px;
+}
+.tombol{
+	font-size:20px; padding:10px; border-radius:30px; background-color:#0c60c8;
+	border:2px solid #0c60c8; font-weight:bold; padding:10px 20px 10px 20px;
+	text-decoration:none; color:white;
+}
+
+
+
+.input-catatan label{margin:30px; font-size:25px;}
+.foto-profil{
+	width:300px; height:400px; margin:0px 0px 20px 50px; border-radius:30px; 
+	border:4px #0c60c8 solid;
+}
+
+
+
+.footer{
+	width:100%; height:60px; background-color:#0c60c8; position:fixed; bottom:0;
+	color:white; font-size:16px; padding:10px 0px 10px 100px; overflow:hidden;
+}
+.footer p{float:left; line-height:35px; margin-bottom:15px; margin-right:40px;}
+.footer a{text-decoration:none; color:white;}
+.footer-sosmed{
+	float:right; margin-right:40px; border-radius:20px; padding:5px 15px 5px 15px;
+	margin-bottom:10px;
+}
